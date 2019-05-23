@@ -1,0 +1,1 @@
+<AddQuestionForm addHandler = {(questionData)=> this.addQuestionHandler(questionData)}/>

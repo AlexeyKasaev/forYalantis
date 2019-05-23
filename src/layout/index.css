@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+html, body, #primaryFlexWrapper, #root {
+    height: 100%;
+}
+.form-check label:hover {
+    cursor: pointer;
+}
+#primaryFlexWrapper {
+    display: flex;
+    flex-direction: column;
+}
+#primaryFlexContent {
+    flex: 1 0 auto;
+}
+#primaryFlexFooter {
+    flex-shrink: 0;
+}
+button {
+    margin-right: 10px;
+}
+.rightAnswer,
+.rightAnswer:focus {
+    background: rgba(0, 255, 56, 0.25);
+}
+.userQuiz .singleQuestion {
+    min-height: 25vh;
+}
+.userQuiz .answerList * {
+    box-sizing: border-box;
+}
+.userQuiz .answerList div,
+.navigationZone .skipButton {
+    background: #626b75;
+    text-align: center;
+    color: white;
+    padding: 10px 5px;
+    border: 3px solid white;
+    cursor: pointer;
+}
+.userQuiz .answerList div:hover {
+    background: #96a2af;
+}
+.navigationZone .skipButton {
+    background: #727562;
+}
+.navigationZone .skipButton:hover {
+    background: #a8af86;
+}
